@@ -130,11 +130,12 @@ img {
 
  @media screen and (min-width: 768px) and (max-width: 1160px){
     .container {
-        width: 100%s;
+        width: 100%;
         overflow: auto;
     }
-    [class*="col-"] {
+    h1, h2, h3, .col  {
         width: 100%;
+        margin: 1rem auto;
       }
     
 }
@@ -152,7 +153,7 @@ img {
         width: 100%;
     }
     .row {
-    flex-direction: column;
+        flex-direction: column;
     }
 
     h1, h2, h3, .col {
