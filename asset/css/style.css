@@ -151,10 +151,14 @@ img {
     .container {
         width: 100%;
     }
-   section .col {
-    width: 100%;
+    .row {
+    flex-direction: column;
     }
-    h1, h2, h3 {
+
+    h1, h2, h3, .col {
         width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
 }
